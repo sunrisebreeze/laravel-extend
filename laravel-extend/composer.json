@@ -1,0 +1,30 @@
+{
+    "name": "sunriseqf\/laravel-extend",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SunriseQf",
+            "email": "sunriseqf@gmail.com"
+        }
+    ],
+    "replace":{
+        "sunriseqf/laravel-extend-artisan":"self.version",
+        "sunriseqf/laravel-extend-database":"self.version"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sunriseqf\\LaravelExtend\\": ""
+        }
+    },
+    "extra":{
+       "laravel":{
+           "providers":[
+               "Sunriseqf\\LaravelExtend\\Artisan\\ArtisanServiceProvider",
+               "Sunriseqf\\LaravelExtend\\Database\\Providers\\SDatabaseServiceProvider",
+               "Sunriseqf\\LaravelExtend\\Swoole\\SwooleServiceProvider"
+           ]
+       }
+     }
+}

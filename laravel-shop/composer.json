@@ -1,0 +1,32 @@
+{
+    "name": "sunriseqf\/laravel-shop",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SunriseQf",
+            "email": "sunriseqf@gmail.com"
+        }
+    ],
+    "require": {
+        "overtrue/laravel-wechat": "~4.0"
+    },
+    "replace":{
+        "sunriseqf/laravel-shop-wap-member": "self.version"
+    },
+    "autoload": {
+        "files" : [
+            "src/Wap/Shop/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Sunriseqf\\LaravelShop\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Sunriseqf\\LaravelShop\\Wap\\Member\\Providers\\MemberServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "sunriseqf\/laravel-shop-wap-shop",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunriseqf",
+            "email": "sunriseqf@gmail.coom"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sunriseqf\\LaravelShop\\Wap\\Shop\\": ""
+        }
+    }
+}

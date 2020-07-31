@@ -1,0 +1,17 @@
+{
+    "name": "laravel-shop-wap\/member",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SunriseQf",
+            "email": "sunriseqf@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sunriseqf\\LaravelShop\\Wap\\Member\\": ""
+        }
+    }
+}

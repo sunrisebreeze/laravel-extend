@@ -1,0 +1,16 @@
+{
+    "name": "sunriseqf\/laravel-extend-swoole",
+    "description": "High performance HTTP server based on Swoole. Speed up your Laravel applications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunriseqf",
+            "email": "Sunriseqf@sixstaredu.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sunriseqf\\LaravelExtend\\Swoole": ""
+        }
+    },
+}

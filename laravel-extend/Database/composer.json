@@ -1,0 +1,17 @@
+{
+    "name": "sunriseqf\/laravel-extend-database",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunriseqf",
+            "email": "Sunriseqf@sixstaredu.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sunriseqf\\LaravelExtend\\Database\\": ""
+        }
+    }
+}

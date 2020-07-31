@@ -1,0 +1,17 @@
+{
+    "name": "sunriseqf\/laravel-shop-data-goods",
+    "description": "jfkdslaf",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunriseqf",
+            "email": "sunriseqf@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sunriseqf\\LaravelShop\\Data\\Goods\\": ""
+        }
+    }
+}
